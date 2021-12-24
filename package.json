@@ -1,0 +1,38 @@
+{
+  "name": "webpack-react-counter",
+  "version": "1.0.0",
+  "description": "Webapack counter packge",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "npm run webpack-dev-server -- --env mode=development",
+    "prod": "npm run webpack -- --env mode=production"
+  },
+  "keywords": [
+    "webpack-react"
+  ],
+  "author": "Jagadesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

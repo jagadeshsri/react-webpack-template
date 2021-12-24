@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "browsers": "last 2 versions"
+                },
+                "modules": false,
+                "loose": false
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-transform-runtime"
+    ]
+}
